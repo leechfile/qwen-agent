@@ -5,7 +5,7 @@ git clone https://github.com/modelscope/modelscope-agent.git
 cd modelscope-agent
 pip install -r requirements.txt
 
-cp -r apps\agentfabric\* .
+mv apps\agentfabric\* .
 pip install -r requirements.txt
 
 
